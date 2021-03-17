@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+
+* {box-sizing: border-box;}
+
+body {margin: 0; padding: 0; height: 100%; font-family: "Libre Baskerville", serif; background-color: #eff3f7;}
+
+html,
+body,
+#potato,
+.container {height: 100%;}
+/* .container {display: flex; justify-content: center; height: 100%;} */
+
+.loader {display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; font-weight: 300;}
+
+.movies {display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; padding: 50px; padding-top: 70px; width: 80%;}
